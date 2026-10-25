@@ -1,0 +1,11 @@
+{
+  "attribution": "Data Provided by Zillow Group",
+  "unit": "USD typical home value",
+  "frequency": "monthly",
+  "zones": 12,
+  "rows": 864,
+  "start": "2015-01-31",
+  "end": "2020-12-31",
+  "sha256": "d772f57dad074c605a521f2c9aac6120dd31eece67cdf7914f1b56c53eb946fb",
+  "warning": "Revised vintage; publication delay is a teaching convention."
+}

@@ -143,3 +143,7 @@ Voir :
 - Vérifier les cardinalités avant/après une jointure.
 - Contrôler un résultat important par une seconde méthode.
 - L'IA peut aider à coder, mais ne remplace pas la vérification.
+
+## Atelier DecisionLab — Zillow
+
+[Kit étudiant : consignes, notebook et données autorisées](usecase/DecisionLab_01_Zillow_Etudiant/README.md). Atelier de deux heures : comparer des modèles simples et justifier une décision économique simulée.
