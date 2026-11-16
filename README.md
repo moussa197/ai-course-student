@@ -8,17 +8,43 @@ Le fil directeur reste simple :
 
 Le cours apprend à poser une question, comprendre le grain des données, vérifier les jointures, produire une analyse, puis transformer le résultat en décision fiable.
 
+## ML avancé — J1 (16 novembre)
+
+**[Démarrage MyLittleMLLab : installation Windows/Mac et données](usecase/MyLittleMLLab/README.md)**
+
+- [Télécharger le kit J1 complet (ZIP)](kits/MyLittleMLLab_J1.zip?raw=true)
+- [Notebook du jour : AML_01_atelier.ipynb](usecase/MyLittleMLLab/notebooks/AML_01_atelier.ipynb)
+- [Fiche de séance](usecase/MyLittleMLLab/fiches/AML_01.md) et [cours rédigé](usecase/MyLittleMLLab/lectures/AML_01_cours.md)
+
+Téléchargez le kit complet puis suivez son README. Le notebook seul ne contient pas le code du laboratoire. Les CSV de fraude se récupèrent depuis Kaggle avec votre compte, selon la procédure du guide.
+
 ## Démarrage étudiant
 
 Option recommandée : cliquez sur **Use this template** ou **Fork** sur GitHub, puis clonez votre propre copie.
 
+Important : ouvrez un **terminal** dans le dossier du projet. Ne double-cliquez pas sur les fichiers `setup`, `check` ou `run`.
+
+### Mac / Linux / Git Bash
+
 ```bash
 git clone https://github.com/VOTRE-USER/ai-course-student.git
 cd ai-course-student
-./setup.sh
-./check.sh
-./run.sh
+bash setup.sh
+bash check.sh
+bash run.sh
 ```
+
+### Windows PowerShell
+
+```powershell
+git clone https://github.com/VOTRE-USER/ai-course-student.git
+cd ai-course-student
+.\setup.bat
+.\check.bat
+.\run.bat
+```
+
+Si Windows bloque ou ouvre les fichiers au lieu de les exécuter, voir `WINDOWS_HELP.md`.
 
 Si vous ne forkerez pas tout de suite, vous pouvez cloner la version de départ :
 
@@ -27,7 +53,9 @@ git clone https://github.com/MathieuDWeill/ai-course-student.git
 cd ai-course-student
 ```
 
-Si le shell refuse l'exécution :
+Si un fichier `.sh` s'ouvre au lieu de s'exécuter sous Windows, utilisez les commandes `.bat` ci-dessus.
+
+Si Git Bash refuse l'exécution directe :
 
 ```bash
 bash setup.sh
@@ -125,3 +153,7 @@ Voir :
 - Vérifier les cardinalités avant/après une jointure.
 - Contrôler un résultat important par une seconde méthode.
 - L'IA peut aider à coder, mais ne remplace pas la vérification.
+
+## Atelier DecisionLab — Zillow
+
+[Kit étudiant : consignes, notebook et données autorisées](usecase/DecisionLab_01_Zillow_Etudiant/README.md). Atelier de deux heures : comparer des modèles simples et justifier une décision économique simulée.

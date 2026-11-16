@@ -1,0 +1,35 @@
+{
+  "horizon_months": 6,
+  "publication_lag_months": 1,
+  "history_start": "2015-01-31",
+  "public_cutoff": "2020-12-31",
+  "decision_asof": "2021-01-31",
+  "validation_start": "2019-01-31",
+  "validation_end": "2019-12-31",
+  "metros": [
+    "New York, NY",
+    "Los Angeles, CA",
+    "Chicago, IL",
+    "Dallas, TX",
+    "Miami, FL",
+    "Atlanta, GA",
+    "Boston, MA",
+    "San Francisco, CA",
+    "Phoenix, AZ",
+    "Seattle, WA",
+    "Tampa, FL",
+    "Denver, CO"
+  ],
+  "economics": {
+    "budget_usd": 10000000,
+    "buy_cost_rate": 0.01,
+    "sell_cost_rate": 0.02,
+    "annual_holding_rate": 0.02,
+    "max_zone_fraction": 0.2,
+    "min_cash_fraction": 0.1,
+    "safety_margin_pp": 0.25,
+    "cash_annual_rate": 0.0,
+    "stress_exit_shock": -0.08,
+    "stress_extra_cost_rate": 0.03
+  }
+}
