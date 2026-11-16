@@ -8,10 +8,17 @@ Le fil directeur reste simple :
 
 Le cours apprend à poser une question, comprendre le grain des données, vérifier les jointures, produire une analyse, puis transformer le résultat en décision fiable.
 
-## ML avancé — J1 (16 novembre)
+## ML avancé — J2 : évaluer sans fuite
+
+**[Commencer J2](usecase/MyLittleMLLab/DEMARRER_J2.md)** · [Notebook AML_02](usecase/MyLittleMLLab/notebooks/AML_02_atelier.ipynb) · [Kit complet J2](kits/MyLittleMLLab_J2.zip?raw=true)
+
+Conservez l’environnement et les données de J1. Le guide indique comment ajouter le notebook J2, puis suivre les démonstrations de split, groupes, dates, prétraitement, validation croisée et OOF.
+
+## ML avancé — J1
 
 **[Démarrage MyLittleMLLab : installation Windows/Mac et données](usecase/MyLittleMLLab/README.md)**
 
+- [Cours J1 étudiant (PDF)](slides/ML_Avance_J1_Etudiant.pdf)
 - [Télécharger le kit J1 complet (ZIP)](kits/MyLittleMLLab_J1.zip?raw=true)
 - [Notebook du jour : AML_01_atelier.ipynb](usecase/MyLittleMLLab/notebooks/AML_01_atelier.ipynb)
 - [Fiche de séance](usecase/MyLittleMLLab/fiches/AML_01.md) et [cours rédigé](usecase/MyLittleMLLab/lectures/AML_01_cours.md)
